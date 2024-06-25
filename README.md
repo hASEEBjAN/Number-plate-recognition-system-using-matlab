@@ -1,25 +1,20 @@
-# Number-plate-recognition-system-using-matlab
+# Number Plate Recognition System Using MATLAB
 
-It is design by MATLAB R2019A
+This project is designed using MATLAB R2019A.
 
+## Additional Requirements
+- Arduino
+- Webcam
 
-Adnons requirnment are 
-Arduino
-Webcam
+## Hardware Requirements
+- Webcam
+- Arduino Uno
+- Servomotor (any for barrier opening)
+- LCD (16x2 for status display)
 
+## Designing
+Connect the Arduino and Webcam to a PC with MATLAB R2019A via USB ports. The LCD data pins, i.e., D4, D5, D6, and D7, are connected to the Arduino's pins D5, D4, D3, and D2 respectively. The enable pin is connected to D6, the Register Select pin to D7, and the contrast control to D11 (if you don't have an external Variac). Connect the servo motor to A0 of the Arduino.
 
+## Deployment
+Add the path of the project to MATLAB and run "number_plate_recognition_system.m". Click on the "Initialize" button and then the "Start" button.
 
-Hardware requirnment are
-Webcam
-Arduino Uno
-Servomotor( any for barrier opening)
-LCD ( 16x2 for status ddisplay)
-
-
-
-Designing 
-Connect Arduino and Webcam to PC having MATLAB R2019S by USB ports. LCD data pin i-e D4 D5 D6 D7 are connected to arduino's pins D5 D4 D3 D2 respectively, while enable pin to D6 and Register Select to D7 and contrast control to D11(if you havn't any external Variac) and connect servo motor to A0 of arduino and boom.
-
-
-Deployment
-Add path of project to MATLAB and run "number_plate_recognition_system.m" click on "Initialize" button and than "Start" button.
